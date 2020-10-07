@@ -1,0 +1,196 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color:goldenrod;
+}
+h1 {
+    margin-top: 10px;
+    margin-left: 110px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}
+
+nav {
+    background:white;
+    padding:10px;
+    text-align: center;
+  }
+  nav ul {
+    list-style: none;
+  }
+  nav ul li{
+    display: inline-block;
+    text-decoration: underline;
+    padding: 10px;
+    background: goldenrod;
+    margin-right: 60px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+  }
+
+.slide{
+    width: 100vw;
+    height: 1000px;
+    margin: auto;
+    animation: slide 20s infinite;
+    background:url(https://bit.ly/36qyiqe);
+}
+@keyframes slide {
+    25% {
+        background: url(https://bit.ly/36k910N);
+    }
+    50% {
+        background: url(https://bit.ly/3iogez4);
+    }
+    75%{
+        background: url(https://bit.ly/36iXij0);
+    }
+    100% {
+        Background: url(https://bit.ly/3jl97sp);
+    }
+}
+
+.yacht {
+    width: 100vw;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0;
+}
+
+.yacht img {
+    width: 100%;
+    height: 100%;
+}
+
+/* contact page */
+
+.contact-form {
+    margin-left: 600px;
+    margin-top: 200px;
+    margin-bottom: 250px;
+
+}
+
+/* jets page */
+
+.jet img {
+    width: 100vw;
+    height: 750px;
+    margin-left: -40px;
+}
+
+.jet p {
+    text-align: center;
+    color: white;
+}
+
+/*  yachts */
+
+.yacht img {
+    width: 100vw;
+    height: 750px;
+}
+
+.yacht p {
+    text-align: center;
+    color: white;
+}
+
+/* about */
+
+main p {
+    text-align: center;
+    color: white;
+    padding: 250px;
+    font-size: 40px;
+    border: white 2px dotted;
+    font-family: cursive;
+}
+
+/* footer */
+
+.logo {
+height: 25px;
+}
+
+footer {
+    background-color: goldenrod;
+    text-align: center;
+    width: 100vw;
+    height: 100%;
+    border: white dotted 2px;
+    }
+
+
+    /* media queries*/
+
+    @media screen and (max-width: 750px) {
+
+        nav ul li{
+            display: inline-block;
+            text-decoration: underline;
+            padding: 5px;
+            background: goldenrod;
+            margin-right: 10px;
+          }
+
+          .slide{
+            width: 100vw;
+            height: 1000px;
+            margin: auto;
+            animation: slide 20s infinite;
+            background:url(https://bit.ly/36qyiqe);
+        }
+
+        main p {
+            text-align: center;
+            color: white;
+            padding: 250px;
+            font-size: 10px;
+            border: white 2px dotted;
+            font-family: cursive;
+        }
+
+        h1 {
+            margin-top: 10px;
+            margin-left: 55px;
+            height: 50px;
+            color: white;
+            text-align: center;
+            font-family: cursive;
+        }
+
+        .contact-form {
+            margin-left: 120px;
+            margin-top: 200px;
+            margin-bottom: 250px;
+        
+        
+        }
+
+        .jet img {
+            width: 380px;
+            height: 750px;
+            margin-left: -40px;
+        }
+
+        main p {
+            text-align: center;
+            color: white;
+            padding: 250px;
+            font-size: 20px;
+            border: white 2px dotted;
+            font-family: cursive;
+        }
+
+    }
+
+    @media screen and (max-width: 1500px) {
+        
+    }
